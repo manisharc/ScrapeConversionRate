@@ -38,9 +38,6 @@ def sendEmail():
     fromaddr = config.get('Accounts', 'fromAddr')
     toaddr = config.get('Accounts', 'toAddr')
     pwd = config.get('Accounts', 'pwd')
-    print fromaddr
-    print toaddr
-    print pwd
     msg = MIMEMultipart()
     msg['From'] = fromaddr
     msg['To'] = toaddr
