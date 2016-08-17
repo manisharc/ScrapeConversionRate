@@ -1,0 +1,5 @@
+[Accounts]
+fromAddr:senderaddress@gmail.com
+pwd:senderpwd
+toAddr:receiveraddress@gmail.com
+
